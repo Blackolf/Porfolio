@@ -1,11 +1,31 @@
 body {
   font: 100% Helvetica, sans-serif;
-  color: #333;
+  color:white;
+  background-color: #111;
+  padding: 0px;
+  margin: 0px;
 }
-
 
 ul > li{
   list-style: none;
 }
 
+.BlockText{
+  border: 1px solid white;
+  display: flex;
+  flex-direction:row;
+}
+
+#introduction{
+  font-size: xx-large;
+}
+
+
+.info{
+
+}
+
+.myImg{
+  width: 40%;
+}
 /*# sourceMappingURL=main.css.map */
