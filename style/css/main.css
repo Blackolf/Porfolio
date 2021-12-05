@@ -8,24 +8,42 @@ body {
 
 ul > li{
   list-style: none;
+  padding: 5px 5px;
 }
+
 
 .BlockText{
-  border: 1px solid white;
+  padding-left: 5%;
+  border-bottom: 1px solid white ;
   display: flex;
-  flex-direction:row;
+  flex-direction:column;
 }
 
-#introduction{
-  font-size: xx-large;
+#introduction,#exp,#Test_labo ,#skills_board{
+  font-size: 250%;
+  font-weight: bold;
 }
 
+.variable_txt{
+  color: darkred;
+}
 
-.info{
+li #data{
+  display: flex;
+  flex-direction: row;
+}
 
+.val_txt{
+  color: green;
+}
+
+.title{
+  text-decoration: underline;
+  font-size: 175%;
 }
 
 .myImg{
   width: 40%;
 }
+
 /*# sourceMappingURL=main.css.map */
