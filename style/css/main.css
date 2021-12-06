@@ -13,10 +13,12 @@ ul > li{
 
 
 .BlockText{
+  margin-bottom: 2%;
   padding-left: 5%;
   border-bottom: 1px solid white ;
   display: flex;
   flex-direction:column;
+
 }
 
 #introduction,#exp,#Test_labo ,#skills_board{
@@ -29,6 +31,11 @@ ul > li{
 }
 
 li #data{
+  display: flex;
+  flex-direction: row;
+}
+
+ul.val >li{
   display: flex;
   flex-direction: row;
 }
