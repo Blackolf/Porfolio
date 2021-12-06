@@ -1,1 +1,0 @@
-require "./req/footer.php"
