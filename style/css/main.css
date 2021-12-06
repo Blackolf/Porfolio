@@ -9,6 +9,8 @@ body {
 ul > li{
   list-style: none;
   padding: 5px 5px;
+  display: flex;
+  flex-direction: row;
 }
 
 
@@ -36,8 +38,7 @@ li #data{
 }
 
 ul.val li {
-  display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .val_txt{
