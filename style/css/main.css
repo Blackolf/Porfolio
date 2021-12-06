@@ -35,7 +35,7 @@ li #data{
   flex-direction: row;
 }
 
-ul.val >li{
+ul.val li {
   display: flex;
   flex-direction: row;
 }
