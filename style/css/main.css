@@ -1,11 +1,56 @@
 body {
   font: 100% Helvetica, sans-serif;
-  color: #333;
+  color:white;
+  background-color: #111;
+  padding: 0px;
+  margin: 0px;
 }
-
 
 ul > li{
   list-style: none;
+  padding: 5px 5px;
+}
+
+
+.BlockText{
+  margin-bottom: 2%;
+  padding-left: 5%;
+  border-bottom: 1px solid white ;
+  display: flex;
+  flex-direction:column;
+
+}
+
+#introduction,#exp,#Test_labo ,#skills_board{
+  font-size: 250%;
+  font-weight: bold;
+}
+
+.variable_txt{
+  color: darkred;
+}
+
+li #data{
+  display: flex;
+  flex-direction: row;
+}
+
+ul.val >li{
+  display: flex;
+  flex-direction: row;
+}
+
+.val_txt{
+  color: green;
+}
+
+.title{
+  text-decoration: underline;
+  font-size: 175%;
+}
+
+.myImg{
+  width: 40%;
 }
 
 /*# sourceMappingURL=main.css.map */
