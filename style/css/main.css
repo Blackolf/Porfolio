@@ -14,67 +14,27 @@ ul > li{
 }
 
 
-.BlockText{
-  margin-bottom: 2%;
-  padding-left: 5%;
-  border-bottom: 1px solid white ;
-  display: flex;
-  flex-direction:column;
-
-}
-
-#introduction,#exp,#Test_labo ,#skills_board{
-  font-size: xx-large;
-  font-weight: bold;
-}
-
-.variable_txt{
-  color: darkred;
-}
-
-li #data{
-  display: flex;
-  flex-direction: row;
-}
-
-ul.val li {
-  flex-wrap: wrap;
-}
-
-.val_txt{
-  color: green;
-}
-
-.title{
-  text-decoration: underline;
-  font-size: 175%;
-}
-
-.myImg{
-  width: 40%;
-}
-
-.test {
-  /* height: 30000px; */
-  /* width: 500px; */
-}
-
 
 .menu{
+  padding-top: 0px;
   display: flex;
-  top: 5%;
-  right: 30px;
+  flex-direction: row;
+  position: relative;
+  flex-grow: 1;
+  align-items: center;
+  top: 25%;
+  right: 500px;
   position: fixed;
-  width: 50px;
+  width: 55px;
   height: 50px;
   border-radius: 30px;
   background-color: #666;
   font-size: large;
   box-shadow: 5px 5px 5px #444;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
   transition: 0.5s;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -83,15 +43,13 @@ ul.val li {
 }
 
 .menu_active{
-  display: flex;
-  top: 5%;
-  right: 30px;
+  top: 25%;
+  right: 500px;
   position: fixed;
-  width: 50px;
-  height: 300px;
+  flex-direction: row;
+  width: 210px;
+  height: 50px;
   border-radius: 30px;
-  background-color: #666;
-  font-size: large;
   box-shadow: 5px 5px 5px #444;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -103,4 +61,111 @@ ul.val li {
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
 }
+
+.menu_list{}
+
+ion-icon {
+  font-size: 250%;
+}
+
+.menu ion-icon{
+  padding: auto;
+  margin: auto;
+}
+
+.menu .menu_element{
+  align-items: flex-start;
+  flex-direction: row;
+  position: relative;
+}
+
+.menu_txt{
+  background-color: green;
+  flex-grow: 1;
+  margin: auto 5px;
+  padding: 0%;
+  text-align: center;
+}
+.menu_icon{
+  background-color: blue;
+}
+
+
+.menu .hide_icon_txt{
+  right: 100%;
+  position: relative;
+  padding-bottom: 0%;
+  font-size: x-large;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.menu .show_icon_txt{
+  font-size: x-large;
+  transform: rotate(180deg);
+  right: 0%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+.menu_element_list{
+  margin: 0px;
+  padding-left: 0px;
+  right: 100%;
+  position: relative;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.icon_txt{
+  display: none;
+  /* display: flex; */
+  flex:0;
+  transition: 0.5s inherit;
+  -webkit-transition: 0.5s inherit;
+  -moz-transition: 0.5s inherit;
+  -ms-transition: 0.5s inherit;
+  -o-transition: 0.5s inherit;
+}
+
+.icon_txt_show{
+  display: flex;
+  transition: 0.5s inherit;
+  flex: 1;
+  -webkit-transition: 0.5s inherit;
+  -moz-transition: 0.5s inherit;
+  -ms-transition: 0.5s inherit;
+  -o-transition: 0.5s inherit;
+}
+
+.menu_element_list_txt_show{
+  right: 0%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.myClass{
+  color: red;
+}
+
+p < .myClass {
+  color: blue ;
+}
+
 /*# sourceMappingURL=main.css.map */

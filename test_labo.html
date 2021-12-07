@@ -6,19 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <link href="style/css/main.css" rel="stylesheet" type="text/css">
+
 
 </head>
 <body>
     <div class='test'>
-        <div name='menu' class='menu'>
+        <div class='menu'>
+            <div class="hide_icon_txt"><ion-icon name="arrow-forward-outline"></ion-icon></div>
+            <ul class='menu_element_list'>
+                <li class='menu_element' id='display_menu'>
+                    <div class='menu_txt icon_txt' > Menu</div>
+                    <div class='menu_icon'><ion-icon name="menu-outline"></ion-icon></div>
+                </li>
+                <li class='menu_element'>
+                    <div class='menu_txt icon_txt'>Presente</div>
+                    <div class='menu_icon'><ion-icon name="person-outline"></ion-icon></div>
+                </li>
+                <li class='menu_element'>
+                    <div class='menu_txt icon_txt'>Experience</div>
+                    <div class='menu_icon'><ion-icon name="flask-outline"></ion-icon></div>
+                </li>
+                <li class='menu_element'>
+                    <div class='menu_txt icon_txt'>Knowledge</div>
+                    <div class='menu_icon'><ion-icon name="library-outline"></ion-icon></div>
+                </li>
+                <li class='menu_element'>
+                    <div class='menu_txt icon_txt'>Labo</div>
+                    <div class='menu_icon'><ion-icon name="flask-outline"></ion-icon></div>
+                </li>
+            </ul>
         </div>
     </div>
+    </div>
     <script>
-        $(".menu").click(function(){
-            $(this).toggleClass("menu_active");
+        $(".hide_icon_txt").click(function(){
+            $(".menu").toggleClass("menu_active");
+            $(this).toggleClass("show_icon_txt");
+            $(".icon_txt").toggleClass("icon_txt_show");
+            $(".menu_element_list").toggleClass("menu_element_list_txt_show");
+
+            console.log("clicked");
         });
+
 
     </script>
     <script>

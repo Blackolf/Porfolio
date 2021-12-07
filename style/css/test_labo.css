@@ -1,0 +1,83 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color:white;
+  background-color: #111;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul > li{
+  list-style: none;
+  padding: 5px 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu_location {
+  left: 30%;
+  top: 300px;
+  position: relative;
+}
+
+.menu {
+  left: 0px;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.menu_display_txt{
+  display: flex;
+  position: relative;
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  border-radius: 30px;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.show_icon_description{
+  background-color: red;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.flip{
+  transform: rotate(180deg);
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+ion-icon {
+  font-size: 250%;
+}
+
+.flex_center{
+  display: flex;
+  align-items: center;
+}
